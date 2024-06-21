@@ -14,7 +14,7 @@ const server = app.listen(port, () => {
 
 const io = require('socket.io')(server, {
     cors: {
-        origin: ["http://localhost:8080"]
+        origin: ["https://my-chat-client-flax.vercel.app/"]
     }
 });
 
